@@ -1,0 +1,371 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="customerInformationTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="customerInformationTool.Text" xml:space="preserve">
+    <value>全部資料</value>
+  </data>
+  <data name="customerInformationDetailTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="customerInformationDetailTool.Text" xml:space="preserve">
+    <value>個別資料</value>
+  </data>
+  <data name="customerInformationMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="customerInformationMenu.Text" xml:space="preserve">
+    <value>客戶資料</value>
+  </data>
+  <data name="productInformationTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="productInformationTool.Text" xml:space="preserve">
+    <value>全部商品</value>
+  </data>
+  <data name="productInformationDetailTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="productInformationDetailTool.Text" xml:space="preserve">
+    <value>個別商品</value>
+  </data>
+  <data name="productInformationMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="productInformationMenu.Text" xml:space="preserve">
+    <value>商品資料</value>
+  </data>
+  <data name="manufacturerInformationTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="manufacturerInformationTool.Text" xml:space="preserve">
+    <value>全部廠商</value>
+  </data>
+  <data name="manufacturerInformationDetailTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="manufacturerInformationDetailTool.Text" xml:space="preserve">
+    <value>個別廠商</value>
+  </data>
+  <data name="manufacturerInformationMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="manufacturerInformationMenu.Text" xml:space="preserve">
+    <value>廠商資料</value>
+  </data>
+  <data name="shippingOrderMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="shippingOrderMenu.Text" xml:space="preserve">
+    <value>出貨單</value>
+  </data>
+  <data name="IncomingOrderMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="IncomingOrderMenu.Text" xml:space="preserve">
+    <value>進貨單</value>
+  </data>
+  <data name="purchasingOrderMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="purchasingOrderMenu.Text" xml:space="preserve">
+    <value>採購單</value>
+  </data>
+  <data name="orderFormMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="orderFormMenu.Text" xml:space="preserve">
+    <value>訂貨單</value>
+  </data>
+  <data name="shipmentReturnOrderMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="shipmentReturnOrderMenu.Text" xml:space="preserve">
+    <value>出貨退回單</value>
+  </data>
+  <data name="incomingOutgoingOrderMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="incomingOutgoingOrderMenu.Text" xml:space="preserve">
+    <value>進貨退出單</value>
+  </data>
+  <data name="totalPurchasesMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="totalPurchasesMenu.Text" xml:space="preserve">
+    <value>總進貨額</value>
+  </data>
+  <data name="totalSalesMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="totalSalesMenu.Text" xml:space="preserve">
+    <value>總銷貨額</value>
+  </data>
+  <data name="accountsReceivableMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="accountsReceivableMenu.Text" xml:space="preserve">
+    <value>應收帳款</value>
+  </data>
+  <data name="specialManufacturerTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="specialManufacturerTool.Text" xml:space="preserve">
+    <value>唐詣</value>
+  </data>
+  <data name="plugInMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="plugInMenu.Text" xml:space="preserve">
+    <value>外掛</value>
+  </data>
+  <data name="suggestPriceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="suggestPriceToolStripMenuItem.Text" xml:space="preserve">
+    <value>建議售價</value>
+  </data>
+  <data name="printListOfItemsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="printListOfItemsToolStripMenuItem.Text" xml:space="preserve">
+    <value>列印貨品清單</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1076, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1076, 561</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>進銷存</value>
+  </data>
+  <data name="&gt;&gt;customerInformationMenu.Name" xml:space="preserve">
+    <value>customerInformationMenu</value>
+  </data>
+  <data name="&gt;&gt;customerInformationMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerInformationTool.Name" xml:space="preserve">
+    <value>customerInformationTool</value>
+  </data>
+  <data name="&gt;&gt;customerInformationTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerInformationDetailTool.Name" xml:space="preserve">
+    <value>customerInformationDetailTool</value>
+  </data>
+  <data name="&gt;&gt;customerInformationDetailTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productInformationMenu.Name" xml:space="preserve">
+    <value>productInformationMenu</value>
+  </data>
+  <data name="&gt;&gt;productInformationMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productInformationTool.Name" xml:space="preserve">
+    <value>productInformationTool</value>
+  </data>
+  <data name="&gt;&gt;productInformationTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productInformationDetailTool.Name" xml:space="preserve">
+    <value>productInformationDetailTool</value>
+  </data>
+  <data name="&gt;&gt;productInformationDetailTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;manufacturerInformationMenu.Name" xml:space="preserve">
+    <value>manufacturerInformationMenu</value>
+  </data>
+  <data name="&gt;&gt;manufacturerInformationMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;manufacturerInformationTool.Name" xml:space="preserve">
+    <value>manufacturerInformationTool</value>
+  </data>
+  <data name="&gt;&gt;manufacturerInformationTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;manufacturerInformationDetailTool.Name" xml:space="preserve">
+    <value>manufacturerInformationDetailTool</value>
+  </data>
+  <data name="&gt;&gt;manufacturerInformationDetailTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;shippingOrderMenu.Name" xml:space="preserve">
+    <value>shippingOrderMenu</value>
+  </data>
+  <data name="&gt;&gt;shippingOrderMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IncomingOrderMenu.Name" xml:space="preserve">
+    <value>IncomingOrderMenu</value>
+  </data>
+  <data name="&gt;&gt;IncomingOrderMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;purchasingOrderMenu.Name" xml:space="preserve">
+    <value>purchasingOrderMenu</value>
+  </data>
+  <data name="&gt;&gt;purchasingOrderMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;orderFormMenu.Name" xml:space="preserve">
+    <value>orderFormMenu</value>
+  </data>
+  <data name="&gt;&gt;orderFormMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;shipmentReturnOrderMenu.Name" xml:space="preserve">
+    <value>shipmentReturnOrderMenu</value>
+  </data>
+  <data name="&gt;&gt;shipmentReturnOrderMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;incomingOutgoingOrderMenu.Name" xml:space="preserve">
+    <value>incomingOutgoingOrderMenu</value>
+  </data>
+  <data name="&gt;&gt;incomingOutgoingOrderMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalPurchasesMenu.Name" xml:space="preserve">
+    <value>totalPurchasesMenu</value>
+  </data>
+  <data name="&gt;&gt;totalPurchasesMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalSalesMenu.Name" xml:space="preserve">
+    <value>totalSalesMenu</value>
+  </data>
+  <data name="&gt;&gt;totalSalesMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accountsReceivableMenu.Name" xml:space="preserve">
+    <value>accountsReceivableMenu</value>
+  </data>
+  <data name="&gt;&gt;accountsReceivableMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plugInMenu.Name" xml:space="preserve">
+    <value>plugInMenu</value>
+  </data>
+  <data name="&gt;&gt;plugInMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;specialManufacturerTool.Name" xml:space="preserve">
+    <value>specialManufacturerTool</value>
+  </data>
+  <data name="&gt;&gt;specialManufacturerTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;suggestPriceToolStripMenuItem.Name" xml:space="preserve">
+    <value>suggestPriceToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;suggestPriceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;printListOfItemsToolStripMenuItem.Name" xml:space="preserve">
+    <value>printListOfItemsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;printListOfItemsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>HomeForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
