@@ -32,7 +32,14 @@ namespace invoicing.Forms
             }
             _totalPrice = SearchTotalPrice(startDate, endDate, name);
             _start = 0;
-            _end = 130;
+            if (_listOfItems.Count > 130)
+            {
+                _end = 130;
+            }
+            else
+            {
+                _end = _listOfItems.Count;
+            }
             printFunction.ChoosePrintPage(printPreviewDialog, printDocument);
         }
 

@@ -322,7 +322,7 @@ namespace invoicing.CommonFunction
             e.Graphics.DrawString("品名", new Font("Arial", 8), Brushes.Black, new Point(105, 90));
             e.Graphics.DrawString("數量", new Font("Arial", 8), Brushes.Black, new Point(350, 90));
             e.Graphics.DrawString("貨品編號", new Font("Arial", 8), Brushes.Black, new Point(400, 90));
-            e.Graphics.DrawString("品名", new Font("Arial", 8), Brushes.Black, new Point(480, 90));
+            e.Graphics.DrawString("品名", new Font("Arial", 8), Brushes.Black, new Point(485, 90));
             e.Graphics.DrawString("數量", new Font("Arial", 8), Brushes.Black, new Point(730, 90));
             Pen black = new Pen(Color.Black);
             PointF point1 = new PointF(20, 80);
@@ -334,22 +334,29 @@ namespace invoicing.CommonFunction
             StringFormat stringFormat = new StringFormat();
             stringFormat.Alignment = StringAlignment.Far;
             int high = 105;
-            for(int i = start; i <= end; i++)
+            try
             {
-                var listOfItem = listOfItems[i];
-                if(i % 2 == 1)
+                for (int i = start; i < end; i++)
                 {
-                    e.Graphics.DrawString(listOfItem.ItemNumber, new Font("Arial", 8), Brushes.Black, new Point(20, high));
-                    e.Graphics.DrawString(listOfItem.ItemName, new Font("Arial", 8), Brushes.Black, new Point(100, high));
-                    e.Graphics.DrawString(listOfItem.Quantity, new Font("Arial", 8), Brushes.Black, new Point(370, high), stringFormat);
+                    var listOfItem = listOfItems[i];
+                    if (i % 2 == 0)
+                    {
+                        e.Graphics.DrawString(listOfItem.ItemNumber, new Font("Arial", 8), Brushes.Black, new Point(20, high));
+                        e.Graphics.DrawString(listOfItem.ItemName, new Font("Arial", 8), Brushes.Black, new Point(105, high));
+                        e.Graphics.DrawString(listOfItem.Quantity, new Font("Arial", 8), Brushes.Black, new Point(370, high), stringFormat);
+                    }
+                    else
+                    {
+                        e.Graphics.DrawString(listOfItem.ItemNumber, new Font("Arial", 8), Brushes.Black, new Point(400, high));
+                        e.Graphics.DrawString(listOfItem.ItemName, new Font("Arial", 8), Brushes.Black, new Point(485, high));
+                        e.Graphics.DrawString(listOfItem.Quantity, new Font("Arial", 8), Brushes.Black, new Point(750, high), stringFormat);
+                        high += 15;
+                    }
                 }
-                else
-                {
-                    e.Graphics.DrawString(listOfItem.ItemNumber, new Font("Arial", 8), Brushes.Black, new Point(400, high));
-                    e.Graphics.DrawString(listOfItem.ItemName, new Font("Arial", 8), Brushes.Black, new Point(485, high));
-                    e.Graphics.DrawString(listOfItem.Quantity, new Font("Arial", 8), Brushes.Black, new Point(750, high), stringFormat);
-                    high += 15;
-                }
+            }
+            catch
+            {
+                return high;
             }
             return high;
         }
